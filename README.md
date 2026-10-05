@@ -29,12 +29,13 @@ Most importantly, it tells you **which GPUs are free**.
 You need Python 3.11+ and `pipx` (`brew install pipx` on a Mac).
 
 ```bash
-git clone https://github.com/aipyth/clustop && cd clustop
-pipx install .
+pipx install clustop        # or: pip install clustop
 
 clustop profile add mycluster 10.0.0.1 10.0.0.2 10.0.0.3 --user YOUR_USER --default
 clustop
 ```
+
+(prefer the latest development version? `pipx install git+https://github.com/aipyth/clustop`)
 
 (or skip the profile for a quick look: `clustop 10.0.0.1 10.0.0.2`)
 
@@ -167,7 +168,7 @@ one shared by your team in a git repo. To switch profiles, quit and start it aga
 ## Updating or uninstalling
 
 ```bash
-cd clustop && pipx install --force .   # update after changing the code
+pipx upgrade clustop                    # update to the newest release
 pipx uninstall clustop                 # remove
 ```
 
