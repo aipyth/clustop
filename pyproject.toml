@@ -1,0 +1,14 @@
+[project]
+name = "clustop"
+version = "0.1.0"
+description = "htop/nvitop-style live view of CPU, RAM and GPU across any set of SSH hosts (GPU clusters, lab servers...)"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["rich>=13"]
+
+[project.scripts]
+clustop = "clustop.app:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"

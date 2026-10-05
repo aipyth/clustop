@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="240" viewBox="0 0 1080 240" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#161b22"/></linearGradient></defs>
+<rect width="1080" height="240" rx="14" fill="url(#bg)"/>
+<rect x="1" y="1" width="1078" height="238" rx="13" fill="none" stroke="#30363d"/>
+<text x="40" y="95" fill="#58a6ff" font-size="54" font-weight="700">clustop</text>
+<text x="42" y="132" fill="#c9d1d9" font-size="17">live CPU · RAM · GPU view of all your clusters</text>
+<text x="42" y="158" fill="#8b949e" font-size="15">who runs what · slurm or manual · which GPUs are free</text>
+<rect x="42" y="182" width="86" height="26" rx="6" fill="#3fb950"/>
+<text x="85" y="200" fill="#0d1117" font-size="14" font-weight="700" text-anchor="middle">1 FREE</text>
+<text x="146" y="200" fill="#8b949e" font-size="14">$ pipx install . &amp;&amp; clustop</text>
+<text x="780" y="40" fill="#6e7681" font-size="12">GPU 0</text>
+<text x="852" y="40" fill="#6e7681" font-size="12">GPU 1</text>
+<text x="924" y="40" fill="#6e7681" font-size="12">GPU 2</text>
+<text x="996" y="40" fill="#6e7681" font-size="12">GPU 3</text>
+<text x="700" y="70" fill="#8b949e" font-size="14">node1</text>
+<rect x="780" y="58" width="60" height="16" rx="3" fill="#21262d"/><rect x="780" y="58" width="2" height="16" rx="3" fill="#3fb950"/>
+<rect x="852" y="58" width="60" height="16" rx="3" fill="#21262d"/><rect x="852" y="58" width="20" height="16" rx="3" fill="#3fb950"/>
+<rect x="924" y="58" width="60" height="16" rx="3" fill="#21262d"/><rect x="924" y="58" width="22" height="16" rx="3" fill="#3fb950"/>
+<rect x="996" y="58" width="60" height="16" rx="3" fill="#21262d"/><rect x="996" y="58" width="60" height="16" rx="3" fill="#f85149"/>
+<text x="700" y="104" fill="#8b949e" font-size="14">node2</text>
+<rect x="780" y="92" width="60" height="16" rx="3" fill="#21262d"/><rect x="780" y="92" width="21" height="16" rx="3" fill="#3fb950"/>
+<rect x="852" y="92" width="60" height="16" rx="3" fill="#21262d"/><rect x="852" y="92" width="38" height="16" rx="3" fill="#d29922"/>
+<rect x="924" y="92" width="60" height="16" rx="3" fill="#21262d"/><rect x="924" y="92" width="14" height="16" rx="3" fill="#3fb950"/>
+<rect x="996" y="92" width="60" height="16" rx="3" fill="#21262d"/><rect x="996" y="92" width="10" height="16" rx="3" fill="#3fb950"/>
+<text x="700" y="138" fill="#8b949e" font-size="14">node3</text>
+<rect x="780" y="126" width="60" height="16" rx="3" fill="#21262d"/><rect x="780" y="126" width="53" height="16" rx="3" fill="#f85149"/>
+<rect x="852" y="126" width="60" height="16" rx="3" fill="#21262d"/><rect x="852" y="126" width="42" height="16" rx="3" fill="#d29922"/>
+<rect x="924" y="126" width="60" height="16" rx="3" fill="#21262d"/><rect x="924" y="126" width="60" height="16" rx="3" fill="#f85149"/>
+<rect x="996" y="126" width="60" height="16" rx="3" fill="#21262d"/><rect x="996" y="126" width="7" height="16" rx="3" fill="#3fb950"/>
+<text x="700" y="172" fill="#8b949e" font-size="14">node4</text>
+<rect x="780" y="160" width="60" height="16" rx="3" fill="#21262d"/><rect x="780" y="160" width="60" height="16" rx="3" fill="#f85149"/>
+<rect x="852" y="160" width="60" height="16" rx="3" fill="#21262d"/><rect x="852" y="160" width="60" height="16" rx="3" fill="#f85149"/>
+<rect x="924" y="160" width="60" height="16" rx="3" fill="#21262d"/><rect x="924" y="160" width="34" height="16" rx="3" fill="#3fb950"/>
+<rect x="996" y="160" width="60" height="16" rx="3" fill="#21262d"/><rect x="996" y="160" width="7" height="16" rx="3" fill="#3fb950"/>
+</svg>
